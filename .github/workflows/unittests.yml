@@ -31,7 +31,7 @@ jobs:
         pip install pytest
 
     - name: Run Unit Tests
-      run: pytest
+      run: pytest C:\Users\Almazt\OneDrive - Ethiopian Airlines\Desktop\10 Academy\Rossmann Pharmaceuticals\Week-4\tests/test_store.py
 
 # Artifacts (Optional): Save test reports or coverage files:
 
