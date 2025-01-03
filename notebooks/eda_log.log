@@ -4,3 +4,100 @@
 2025-01-02 08:07:03,998 - INFO - Training data shape: (1017209, 9)
 2025-01-02 08:20:57,134 - INFO - EDA process initiated.
 2025-01-02 08:20:57,585 - INFO - Training data shape: (1017209, 9)
+2025-01-03 07:50:05,233 - INFO - EDA process initiated.
+2025-01-03 07:50:05,920 - INFO - Missing values by column: 
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2025-01-03 07:51:00,650 - INFO - EDA process initiated.
+2025-01-03 07:51:01,081 - INFO - Missing values by column: 
+Open             11
+Id                0
+DayOfWeek         0
+Store             0
+Date              0
+Promo             0
+StateHoliday      0
+SchoolHoliday     0
+dtype: int64
+2025-01-03 07:51:42,792 - INFO - EDA process initiated.
+2025-01-03 07:51:43,272 - INFO - Missing values by column: 
+Open             11
+Id                0
+DayOfWeek         0
+Store             0
+Date              0
+Promo             0
+StateHoliday      0
+SchoolHoliday     0
+dtype: int64
+2025-01-03 07:53:10,333 - INFO - EDA process initiated.
+2025-01-03 07:53:10,783 - INFO - Missing values by column: 
+Open             11
+Id                0
+DayOfWeek         0
+Store             0
+Date              0
+Promo             0
+StateHoliday      0
+SchoolHoliday     0
+dtype: int64
+2025-01-03 07:54:33,399 - INFO - EDA process initiated.
+2025-01-03 07:54:33,836 - INFO - Missing values by column: 
+Open             11
+Id                0
+DayOfWeek         0
+Store             0
+Date              0
+Promo             0
+StateHoliday      0
+SchoolHoliday     0
+dtype: int64
+2025-01-03 07:54:34,237 - INFO - Missing values by column: 
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2025-01-03 07:55:02,878 - INFO - EDA process initiated.
+2025-01-03 07:55:03,363 - INFO - Missing values by column: 
+Open             11
+Id                0
+DayOfWeek         0
+Store             0
+Date              0
+Promo             0
+StateHoliday      0
+SchoolHoliday     0
+dtype: int64
+2025-01-03 07:55:03,915 - INFO - Missing values by column: 
+Store            0
+DayOfWeek        0
+Date             0
+Sales            0
+Customers        0
+Open             0
+Promo            0
+StateHoliday     0
+SchoolHoliday    0
+dtype: int64
+2025-01-03 08:06:57,827 - INFO - Starting outlier handling.
+2025-01-03 08:06:57,870 - INFO - Handled outliers in 'Sales' using IQR method.
+2025-01-03 08:06:59,230 - INFO - Starting feature scaling.
+2025-01-03 08:08:35,368 - INFO - Starting outlier handling.
+2025-01-03 08:08:35,410 - INFO - Handled outliers in 'Sales' using IQR method.
+2025-01-03 08:08:36,787 - INFO - Starting feature scaling.
+2025-01-03 08:08:36,853 - INFO - Standardized numerical features.
+2025-01-03 08:08:41,116 - INFO - Saved cleaned dataset.
