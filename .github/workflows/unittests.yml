@@ -22,19 +22,14 @@ jobs:
 
     - name: Set up Python
       uses: actions/setup-python@v4
-      with:
-        python-version: 3.x
+      with: python-version: 3.x
 
     - name: Install Dependencies
       run: |
         pip install -r requirements.txt
         pip install pytest
-
-    # - name: Run Unit Tests
-    #   run: pytest "C:/Users/Almazt/OneDrive - Ethiopian Airlines/Desktop/10 Academy/Rossmann Pharmaceuticals/Week-4/tests/test_store.py"
-
-      - name: Run Unit Tests
-     pytest ./tests/test_store.py
+    - name: Run Unit Tests
+      run: pytest ./tests/test_store.py
 
 # Artifacts (Optional): Save test reports or coverage files:
 
